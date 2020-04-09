@@ -3,6 +3,10 @@
 
 Minimalist Android app that lets you play a dice game by rolling a dice.
 
+## Some key Lessons Learnt and Links to the resources
+
+* layout inflation - https://developer.android.com/reference/android/app/Activity.html#setContentView(int)
+
 
 ## Structure
 
