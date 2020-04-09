@@ -3,7 +3,9 @@ package com.example.diceroller
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,13 +16,26 @@ class MainActivity : AppCompatActivity() {
 //findviewbyid
         val roll_button : Button = findViewById(R.id.roll_button)
         val roll_royce : Button = findViewById(R.id.royce_button)
+        var random_text : String
 
         roll_button.setOnClickListener {
-            Toast.makeText(this, "Button is clicked", Toast.LENGTH_SHORT).show()
+            rollDice()
         }
 
         roll_royce.setOnClickListener {
-            Toast.makeText(this, "royce get out", Toast.LENGTH_SHORT).show()
+            rollice()
         }
+
+    }
+
+    private fun rollice() {
+        val rollmice : TextView = findViewById(R.id.roll_mice)
+        rollmice.text = "learning something new"
+    }
+
+    private fun rollDice() {
+//         assign val to a textview and then infalte it by findviewbyid
+        val resultText : TextView = findViewById(R.id.random_text)
+        resultText.text = "Dice Rolled"
     }
 }

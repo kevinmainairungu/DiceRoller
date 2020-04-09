@@ -8,9 +8,15 @@
     tools:context=".MainActivity">
 <!--Scale independent Pixels (sp)-->
     <TextView
+        android:id="@+id/random_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/roll_mice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"/>
     <Button
@@ -18,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="@string/roll"
         android:id="@+id/roll_button"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />
 
         <Button
 
@@ -26,8 +32,8 @@
             android:layout_width="wrap_content"
             android:text="@string/royce"
             android:id="@+id/royce_button"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
 
-            />
+
 
 </LinearLayout>
