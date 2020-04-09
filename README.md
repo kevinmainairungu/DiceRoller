@@ -9,7 +9,7 @@ Minimalist Android app that lets you play a dice game by rolling a dice.
 
 ## Screenshot
 
-![Alt text](ScreenShots/Screenshot_1586441584.png? =50px raw=true "Dice")
+![Alt text](ScreenShots/Screenshot_1586441584.png?=50px raw=true "Dice")
 
 
 ## Structure
