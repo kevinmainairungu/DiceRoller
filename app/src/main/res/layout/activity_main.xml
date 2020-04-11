@@ -12,13 +12,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"/>
+        android:textSize="30sp"
+        android:src="@drawable/dice_1" />
     <ImageView
         android:id="@+id/dice_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:textSize="30sp"/>
+        android:textSize="30sp"
+        android:src="@drawable/dice_1" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
