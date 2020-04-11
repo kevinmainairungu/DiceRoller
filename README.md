@@ -8,6 +8,7 @@ Minimalist Android app that lets you play a dice game by rolling a dice.
 * layout inflation - https://developer.android.com/reference/android/app/Activity.html#setContentView(int)
 * findviewbyid - https://developer.android.com/reference/android/view/View
 * toast and toast duration - https://developer.android.com/guide/topics/ui/notifiers/toasts
+* late-initialised-properties-and-variables - https://kotlinlang.org/docs/reference/properties.html#late-initialized-properties-and-variables
 
 ## Screenshot
 
