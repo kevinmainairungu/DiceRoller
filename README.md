@@ -12,9 +12,6 @@ Minimalist Android app that lets you play a dice game by rolling a dice.
 ![Alt text](ScreenShots/Screenshot_1586441584.png?raw=true)
 ![Alt text](ScreenShots/Screenshot_1586446666.png?raw=true)
 
-
-
-
 ## Structure
 
 * `build.gradle` - root gradle config file
