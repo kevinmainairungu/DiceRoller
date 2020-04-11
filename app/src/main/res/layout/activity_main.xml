@@ -7,20 +7,23 @@
     android:layout_gravity="center_vertical"
     tools:context=".MainActivity">
 <!--Scale independent Pixels (sp)-->
+<!--The 'tools' namespace is used when  you want to define dummy content that is only used in the app when your using the preview screen.They are removed after the app is compiled    -->
     <ImageView
         android:id="@+id/image_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"
-        android:src="@drawable/dice_1" />
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1" />
     <ImageView
         android:id="@+id/dice_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="30sp"
-        android:src="@drawable/dice_1" />
+        android:src="@drawable/empty_dice"
+        tools:src="@drawable/dice_1"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
